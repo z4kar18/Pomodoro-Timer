@@ -23,6 +23,3 @@ To use the timer, click the "Start" button. You can pause the timer at any time 
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. (Las solicitudes de extracción son bienvenidas. Para cambios importantes, por favor abra un problema primero para discutir lo que le gustaría cambiar.)
 
-## License (Licencia)
-
-MIT
