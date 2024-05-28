@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" type="text/css" href="css/pomodoro.css">
+    <link rel="stylesheet" type="text/css" href="css/start.css">
+    <link rel="stylesheet" type="text/css" href="css/pause.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/update.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #timer {
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <div>
+        <label for="workTime">Work Time (minutes):</label>
+        <input type="number" id="workTime" value="25">
+    </div>
+    <div>
+        <label for="breakTime">Break Time (minutes):</label>
+        <input type="number" id="breakTime" value="5">
+    </div>
+    <div id="timer"></div>
+    <button id="start" class="start-btn">Start</button>
+    <button id="pause" class="animated-btn">Pause</button>
+    <button id="reset" class="animated-btn">Reset</button>
+    <button id="update" class="animated-btn">Update</button>
+
+    <script src="js/pomodoro.js"></script>
+</body>
+</html>
+
